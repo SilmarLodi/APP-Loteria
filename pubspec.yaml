@@ -1,0 +1,23 @@
+name: loteria_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+# Definição do ambiente e versão mínima do SDK do Dart
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+# Configurações do Flutter
+flutter:
+  uses-material-design: true  # Configuração de design material
+
+dependencies:
+  flutter:
+    sdk: flutter  # Dependência do SDK do Flutter
+  pdf: ^3.10.0
+  cupertino_icons: ^1.0.8
+  printing: ^5.7.0  # Adicione esta dependência para poder imprimir/exportar o PDF
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
